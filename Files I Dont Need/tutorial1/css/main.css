@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    background-color:#E3E3E3;
+    font:14px/1.3 Arial,sans-serif;
+}
+
+.content-main {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    margin: 20px auto;
+    max-width: 1002px;
+    min-height: 500px;
+    min-width: 930px;
+    overflow: visible;
+    padding: 10px;
+    position: relative;
+}
+.content-body {
+    background: none repeat scroll 0 0 #EEEEEE;
+    margin: 0 0 15px;
+    padding: 10px 10px 5px;
+    position: relative;
+}
+.content-body h2 {
+    display: block;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0 20px;
+}
+.content-body .content-body-inner {
+    border-bottom: 1px solid #E8E8E8;
+    min-height: 51px;
+    overflow: hidden;
+    padding: 9px 12px;
+    position: relative;
+}
+
+/* list of artists */
+.artist {
+    display: block;
+    float: left;
+    margin: 10px;
+    width: 128px;
+}
+.artist a {
+    text-decoration: none;
+}
+.artist b {
+    color: #1B1B1B;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* single artist info */
+.artist_info {
+    display: block;
+    margin: 10px;
+}
+.artist_info > a {
+    display: block;
+    float: left;
+    text-decoration: none;
+}
+.artist_info b {
+    color: #1B1B1B;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+}
+.artist_info div {
+    color: #1B1B1B;
+    float: right;
+    font-size: 12px;
+    padding-top: 30px;
+    text-align: justify;
+    width: 630px;
+}
+
+/* list of tracks */
+.track {
+    display: block;
+    float: left;
+    margin: 9px;
+    width: 300px;
+}
+.track a {
+    text-decoration: none;
+    vertical-align: center;
+}
+.track img {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.track b {
+    color: #1B1B1B;
+    font-size: 13px;
+}
